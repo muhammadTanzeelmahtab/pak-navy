@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  
+}
+/* navbar */
+
+.navbar{
+    background: white !important;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+h6{
+    color: rgb(150, 150, 150);
+    line-height: 24px;
+    text-transform: none;
+    letter-spacing: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    text-shadow: none;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: initial;
+}
+.nav-item{
+    margin: 8px;
+}
+.nav-link{
+    color: black !important;
+}
+.btn{
+    background: #000055 !important;
+    border-radius: 0 !important;
+}
+/* carousel  */
+
+.carousel-inner{
+    width: 100%;
+    border: 5px solid white;
+}
+.background{
+    background: white ;
+  
+}
+h2{
+    font-weight: 1000;
+    font-family: a;
+    font-size: 40px;
+}
+h4{
+    font-style: italic;
+    font-weight: 600;  
+}
+.background-light{
+    background: #f1f1f1 !important;
+    padding: 10px;
+    height: 20vh;
+}
+h3{
+    text-decoration: underline;
+    font-weight: 400;
+}
+li{
+    color: rgb(100, 209, 252);
+    font-weight: 500;
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 40px;
+    background: rgb(38, 121, 190);
+    border-radius: 0 !important;
+}
+.card img{
+   max-width: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text{
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+@media screen and (max-width: 992px) {
+    .card {
+      margin: 5px;
+    }
+  }
+
+ol{
+    margin: 0;
+    padding: 40px;
+}
+.bgd{
+    background-image: url('./images/tactile_noise.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 25vh;
+}
+.texts{
+    color: rgb(211, 211, 211);
+    padding-top: 80px !important;
+    font-size: 11px;
+}
